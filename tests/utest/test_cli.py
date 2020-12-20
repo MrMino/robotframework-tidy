@@ -1,9 +1,7 @@
 from unittest.mock import patch
 from pathlib import Path
-import io
-import sys
 
-from unittest.mock import MagicMock,Mock
+from unittest.mock import MagicMock, Mock
 import pytest
 
 from .utils import run_tidy, save_tmp_model
